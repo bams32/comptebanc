@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+margin: 2em;
+}
+
+.formulaire {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+input ::placeholder{
+    color: aliceblue;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(226, 215, 215);
+   outline: none;
+   
+}
+
+#click {
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+}
+
+#click:hover {
+    color: blue;
+    background-color:rgb(226, 215, 215);
+}
+
